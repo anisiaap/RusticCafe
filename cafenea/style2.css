@@ -1,0 +1,77 @@
+
+:root {
+  --border-size: 0.1rem;
+  --duration: 250ms;
+ --ease: cubic-bezier(0.2, 0.6, 0.3, 1);
+  --font-family: Papyrus;
+   --color-primary:#24332a;
+  --color-secondary:#d8ca7b;
+  --color-tertiary:#756657;
+   --shadow: background: rgb(134, 89, 45);
+  --space: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 130vh;
+  margin: 0 auto;
+  display: grid;
+  max-width: 1100px;
+}
+
+.multi-button {
+  display: flex;
+  width: 100%;
+  box-shadow: var(--shadow) 4px 4px;
+}
+
+.multi-button button {
+ flex-grow: 0.1;
+  cursor: pointer;
+  position: relative;
+  padding:
+    calc(var(--space) / 2)
+    var(--space) var(--space);
+  border: var(--border-size) solid rgb(105, 141, 117);
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  font-size: 1.21rem;
+   font-weight: bold;
+   font-family: monospace;
+  font-family: var(--font-family);
+  text-shadow: var(--shadow) 4px 4px;
+  transition: flex-grow var(--duration) var(--ease);
+}
+
+.multi-button button + button {
+  border-left: var(--border-size) solid #24332a;
+  margin-left: calc(var(--border-size) * -1);
+}
+
+.multi-button button:hover,
+.multi-button button:focus {
+  flex-grow: 5;
+  color: white;
+  outline: none;
+  text-shadow: none;
+  background-color: rgb(105, 141, 117);
+}
+
+.multi-button button:focus {
+  outline: var(--border-size) dashed var(--color-primary);
+  outline-offset: calc(var(--border-size) * -3);
+}
+
+.multi-button:hover button:focus:not(:hover) {
+  flex-grow: 0.1;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  outline-color: var(--color-tertiary);
+}
+
+.multi-button button:active {
+  transform: translateY(var(--border-size));
+}

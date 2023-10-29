@@ -1,0 +1,240 @@
+body{
+    background:rgb(105, 141, 117);
+    
+}
+    
+    span.default {
+    
+      text-align: justify;
+      letter-spacing: 5px;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1a0d00, 0 0 40px #1a0d00, 0 0 50px #1a0d00, 0 0 60px #1a0d00, 0 0 70px #1a0d00;
+      }
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #946638, 0 0 40px #946638, 0 0 50px #946638, 0 0 60px #946638, 0 0 70px #ff4da6, 0 0 80px #946638;
+      }
+    }
+    
+    
+    .title {
+      position: absolute;
+      text-align: center;
+      font-family: Papyrus;
+      font-size: 73px;
+      margin: 0px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+     }
+    
+    .login{
+      position: absolute;
+      text-align: right;
+      font-family: Papyrus;
+      font-size: 30px;
+      margin: 0px;
+      top: 10%;
+      left: 90%;
+      transform: translate(-50%, -50%);
+    }
+    
+    a:link {
+      text-decoration: none;
+    }
+    
+    a:visited {
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: none;
+    }
+    
+    a:active {
+      text-decoration: none;
+    }
+    
+     .LoginTitle{
+      position: absolute;
+      text-align: center;
+      color:#ffcc66;
+      font-family: Papyrus;
+      font-size: 73px;
+      margin: 0px;
+      top: 15%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+     }
+    
+    .log_situation{
+       position: absolute;
+      text-align: center;
+      font-family: Papyrus;
+      font-size: 20px;
+      margin: 0px;
+      top: 20%;
+      right: 40%;
+      transform: translate(-50%, -50%);
+    }
+    .verif{
+        position: absolute;
+      text-align: right;
+      font-family: Papyrus;
+      font-size: 25px;
+      margin: 0px;
+      top: 10%;
+      right: 65%;
+      transform: translate(-50%, -50%);
+    }
+    
+    
+     .poza{
+      opacity: 0.15;
+      display: inline-block;
+      position:relative;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid black;
+     }
+    
+     .pozamanager{
+      opacity: 0.5;
+      display: inline;
+      position:relative;
+      margin-left: auto;
+      margin-right: auto;
+     }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    input{
+      width: 40%;
+      padding: 7px 15px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+    
+    
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .buttons {
+    color: rgb(105, 141, 117) ;
+    text-decoration: none;
+    font-family: Papyrus;
+    background: #24332a;
+    border: 2px solid #86592d;
+    transition: all 0.4s ease 0s;
+    width: 220px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    
+    }
+    
+    .buttons:hover {
+    color: #24332a ;
+    font-family: Papyrus;
+    background: rgb(105, 141, 117);
+    border-color: rgb(105, 141, 117);
+    transition: all 0.4s ease 0s;
+    }
+    
+    .verif{
+        position: absolute;
+      text-align: right;
+      font-family: Papyrus;
+      font-size: 20px;
+      margin: 0px;
+      top: 10%;
+      right: 65%;
+      transform: translate(-50%, -50%);
+    }
+    
+    
+    .temp_verif{
+      font-family: Papyrus;
+     color:#4d3319;
+     font-size:35px;
+     
+    }
+    
+    .LinkButtons{
+      background-color: #4d3319;
+      color: #dab38b;
+      border: none;
+      font-family: Papyrus;
+      padding: 5px 50px;
+      font-size: 15px;
+      text-align: center;
+      float: left;
+      text-decoration: none;
+      opacity: 0.8;
+      margin:0;
+      display: inline-block;
+      width: 48%;
+    }
+    .logoutbutton{
+      position: absolute;
+      margin:0;
+      font-family: Papyrus;
+      left:80%;
+      top:30px;
+      opacity: 0.8;
+      width: 11.1%;
+      transform: translate(-50%, -50%);
+      z-index: 5;
+     font-size: 20px;
+      border-radius: 10px;
+      font-family: Papyrus;
+      background-color: #4d3319;
+      color: #dab38b;
+      text-decoration: none;
+      border: 1px solid rgba(218, 179, 139,1);
+      overflow: hidden;
+      margin:0;
+    }
+    
+    .col {
+      float: right;
+      width: 33.33%;
+      padding: 5px;
+      
+    }
+    
+    
+    
+    /* Clearfix (clear floats) */
+    .rowa::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    
+    
+    

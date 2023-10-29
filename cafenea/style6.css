@@ -1,0 +1,395 @@
+html {
+  height: 110%;
+}
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: linear-gradient(#d9b38c, #734d26);
+}
+
+ .pozamanager{
+  opacity: 0.5;
+  display: inline;
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+.logoutbutton{
+  position: absolute;
+  margin:0;
+  font-family: Papyrus;
+  left:7%;
+  top:30px;
+  opacity: 0.8;
+  width: 11.1%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+ font-size: 20px;
+  border-radius: 10px;
+  font-family: Papyrus;
+  background-color: #4d3319;
+  color: #dab38b;
+  text-decoration: none;
+  border: 1px solid rgba(218, 179, 139,1);
+  overflow: hidden;
+  margin:0;
+}
+
+.logoutbutton:hover {
+  box-shadow: 1px 1px 25px 10px rgba(204, 204, 255,0.55);
+}
+
+.logoutbutton:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+  rgba(204, 204, 255,0.55),
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.logoutbutton:hover:before {
+  left: 100%;
+}
+
+
+
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+   font-family: Bookman Old Style;
+}
+
+ .signuperror{
+  margin-bottom:0px;
+  position:absolute;
+  bottom:3%;
+  left:50%;
+  text-align: center;
+  font-family: Papyrus;
+  font-size: 25px;
+  background-color: #604020;
+  margin:0px;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  color: #734d26;
+}
+
+ .LinkButtons{
+  background-color:#1C622B;
+  color: white;
+  border: none;
+  font-family: Bookman Old Style;
+  padding: 5px 10px;
+  font-size: 20px;
+  text-align: center;
+  float: left;
+  text-decoration: none;
+  opacity: 0.8;
+  margin:0;
+  display: inline-block;
+  width: 95%;
+  border-radius: 10px;
+}
+
+.login-box {
+  position: absolute;
+  top: 55%;
+  left: 60%;
+  width: 450px;
+  height:700px;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+
+
+.choice-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 450px;
+  height:255px;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.login-box h2 {
+  margin: 0px;
+  font-size: 25px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  height: 15px;
+  font-family: Bookman Old Style;
+}
+
+.login-box h3{
+  margin: 0px;
+  font-size: 20px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Bookman Old Style;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.buttons {
+  font-size: 20px;
+  height: 40px;
+  width: 40%;
+  border-radius: 10px;
+  font-family: Bookman Old Style;
+  background-color: #4d3319;
+  color: #dab38b;
+  text-decoration: none;
+  border: 1px solid rgba(218, 179, 139,1);
+  position: relative;
+  overflow: hidden;
+  margin:0;
+}
+
+.stergere {
+  font-size: 20px;
+  height: 40px;
+  width: 40%;
+  border-radius: 10px;
+  font-family: Bookman Old Style;
+  background-color: #4d3319;
+  color: #dab38b;
+  text-decoration: none;
+  border: 1px solid rgba(218, 179, 139,1);
+  position: relative;
+  overflow: hidden;
+  margin:0;
+}
+
+.del {
+  font-size: 20px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  font-family: Bookman Old Style;
+  background-color: #4d3319;
+  color: #dab38b;
+  text-decoration: none;
+  border: 1px solid rgba(218, 179, 139,1);
+  position: relative;
+  overflow: hidden;
+  margin:0;
+}
+
+.buttons:hover {
+  box-shadow: 1px 1px 25px 10px rgba(204, 204, 255,0.55);
+}
+
+.buttons:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+   rgba(204, 204, 255,0.55),
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.buttons:hover:before {
+  left: 100%;
+}
+
+.comenzi{
+  position: absolute;
+  margin:0;
+  font-family: Papyrus;
+  left:85%;
+  top:55px;
+  opacity: 0.8;
+  width: 11.1%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+ font-size: 20px;
+  border-radius: 10px;
+  font-family: Papyrus;
+  background-color: #4d3319;
+  color: #dab38b;
+  text-decoration: none;
+  border: 1px solid rgba(218, 179, 139,1);
+  overflow: hidden;
+  margin:0;
+}
+.produse{
+  position: absolute;
+  margin:0;
+  font-family: Papyrus;
+  left:85%;
+  top:85px;
+  opacity: 0.8;
+  width: 11.1%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+ font-size: 20px;
+  border-radius: 10px;
+  font-family: Papyrus;
+  background-color: #4d3319;
+  color: #dab38b;
+  text-decoration: none;
+  border: 1px solid rgba(218, 179, 139,1);
+  overflow: hidden;
+  margin:0;
+
+}
+.verif{
+  position: absolute;
+  margin:0;
+  font-family: Papyrus;
+  left:85%;
+  top:145px;
+  opacity: 0.8;
+  width: 11.1%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+ font-size: 20px;
+  border-radius: 10px;
+  font-family: Papyrus;
+  background-color: #4d3319;
+  color: #dab38b;
+  text-decoration: none;
+  border: 1px solid rgba(218, 179, 139,1);
+  overflow: hidden;
+  margin:0;
+}
+.clienti{
+  position: absolute;
+  margin:0;
+  font-family: Papyrus;
+  left:85%;
+  top:200px;
+  opacity: 0.8;
+  width: 11.1%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+ font-size: 20px;
+  border-radius: 10px;
+  font-family: Papyrus;
+  background-color: #4d3319;
+  color: #dab38b;
+  text-decoration: none;
+  border: 1px solid rgba(218, 179, 139,1);
+  overflow: hidden;
+  margin:0;
+}
+.produse2{
+  position: absolute;
+  margin:0;
+  font-family: Papyrus;
+  left:85%;
+  top:125px;
+  opacity: 0.8;
+  width: 11.1%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+ font-size: 20px;
+  border-radius: 10px;
+  font-family: Papyrus;
+  background-color: #4d3319;
+  color: #dab38b;
+  text-decoration: none;
+  border: 1px solid rgba(218, 179, 139,1);
+  overflow: hidden;
+  margin:0;
+}
+
+.product-box {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  width: 450px;
+  height:1160px;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.product-box h2 {
+  margin: 0px;
+  font-size: 25px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  height: 15px;
+  font-family: Bookman Old Style;
+}
+
+.product-box h3{
+  margin: 0px;
+  font-size: 20px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Bookman Old Style;
+}
+
+.product-box .user-box {
+  position: relative;
+}
+
+.product-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+
+
+
+
+
+

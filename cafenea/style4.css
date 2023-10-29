@@ -1,0 +1,149 @@
+html {
+  height: 100%;
+}
+body {
+  margin:0;
+  padding:0;
+  font-family: Papyrus;
+  background:rgb(51, 26, 0);
+}
+
+.LoginTitle{
+  position: absolute;
+  text-align: center;
+  color:#b35900;
+  font-family: Papyrus;
+  font-size: 73px;
+  margin: 0px;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+ .signuperror{
+  margin-bottom:0px;
+  position:absolute;
+  bottom:1%;
+  left:50%;
+  text-align: center;
+  font-family: Papyrus;
+  font-size: 25px;
+  background-color: #cc6600;
+  margin:0px;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+  color:#ffcc99;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ffcc99;
+   font-family: Papyrus;
+}
+
+ .LinkButtons{
+  background-color:#b35900;
+  color: #ffcc99;
+  border: none;
+  font-family: Papyrus;
+  padding: 5px 10px;
+  font-size: 20px;
+  text-align: center;
+  float: left;
+  text-decoration: none;
+  opacity: 0.8;
+  margin:0;
+  display: inline-block;
+  width: 95%;
+}
+
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(179, 89, 0,.6);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(255, 166, 77,.6);
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #ffcc99;
+  text-align: center;
+   font-family: Papyrus;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #ffcc99;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #ffcc99;
+  outline: none;
+  background: transparent;
+}
+
+.buttons {
+color: #392613 ;
+text-decoration: none;
+font-family: Papyrus;
+background: #86592d;
+border: 2px solid #86592d;
+transition: all 0.4s ease 0s;
+width: 220px;
+height: 50px;
+font-size: 20px;
+border: none;
+outline: none;
+cursor: pointer;
+position: relative;
+z-index: 0;
+border-radius: 10px;
+
+}
+
+.buttons:hover {
+color: #86592d ;
+font-family: Papyrus;
+background: #392613;
+border-color: #392613 ;
+transition: all 0.4s ease 0s;
+}
+
+
+.login{
+  position: absolute;
+  text-align: right;
+  font-family: Papyrus;
+  font-size: 50px;
+  margin: 0px;
+  top: 10%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
